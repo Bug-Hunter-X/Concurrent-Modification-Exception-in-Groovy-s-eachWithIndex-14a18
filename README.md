@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in Groovy related to concurrent modification exceptions. The `unusualBug.groovy` file contains code that attempts to remove elements from a list while iterating through it using `eachWithIndex`.  The `unusualBugSolution.groovy` file shows how to safely modify the list during iteration using an iterator or a copy of the list.
